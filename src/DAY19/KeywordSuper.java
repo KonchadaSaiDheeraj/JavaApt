@@ -17,15 +17,15 @@ class Honda extends Bike {
     String brand = "Honda";
 
     public Honda() {
-        super();
+        super();   // super keyword for parent class constructor
         System.out.println("Honda constructor called...");   
     }
 
     public void displayInfo() {
         
-        super.displayInfo();
+        super.displayInfo();   // super keyword for parent class method
 
-        System.out.println("Parent brand: " + super.brand);
+        System.out.println("Parent brand: " + super.brand);   // super keyword for parent class variable
 
         System.out.println("Child brand: " + brand);
         
