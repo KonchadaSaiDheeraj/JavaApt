@@ -43,6 +43,7 @@ public class ExampleLinkedList {
 		}
 		
 		System.out.println(list4.addAll(list3));
+		System.out.println(list3); // elements will be in list
 		System.out.println("The Array List is: "+list4);
 //		Iterator<String> iterator = list4.iterator();   // classCastException is coming when we execute the iterator code
 //		System.out.println("The Array List is: ");
